@@ -11,7 +11,7 @@ export default function Home() {
     <div className="grid grid-cols-1 gap-y-16 xl:gap-y-0 xl:gap-x-16 xl:grid-cols-4">
       <aside className='self-start w-full col-span-1 p-8 border border-gray-600 xl:sticky xl:top-5'>
         <div className='flex flex-col items-center text-center'>
-          <Image src={'/images/avatar2.jpg'} title='That&apos;s me!' className='transition-all duration-200 border-2 border-transparent rounded-full hover:border-amber-400' alt='Profile Picture' width={180} height={180} quality={100} />
+          <Image src={'/images/avatar2.jpg'} title='That&apos;s me!' className='transition-all duration-200 border-2 border-transparent rounded-full hover:border-amber-400' alt='me wearing glasses and a green shirt' width={180} height={180} quality={100} />
           <h1 className='mt-4 text-xl font-bold'>André Gama</h1>
 
           <nav className='flex flex-col mt-8 space-y-2'>
