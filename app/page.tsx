@@ -197,7 +197,7 @@ export default function Home() {
         <section id='contact'>
           <h1 className='text-amber-400'>Contact</h1>
           <p>
-            You can contact me by email at <a href='mailto:andre_gama@outlook.com.br'>andre_gama@outlook.com.br</a> or by <a href='https://www.linkedin.com/in/andre-gama/'>LinkedIn</a>.
+            You can contact me by email at <a href='mailto:contato@andregama.dev'>contato@andregama.dev</a> or by <a href='https://www.linkedin.com/in/andre-gama/'>LinkedIn</a>.
           </p>
           <p>
             * Although I&apos;m not looking for a full-time job, I&apos;m open to front-end freelance jobs.
