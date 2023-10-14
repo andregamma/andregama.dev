@@ -1,7 +1,7 @@
-import Head from 'next/head'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +22,9 @@ export default function RootLayout({
       <body className={inter.className + " " + "scroll-smooth min-h-screen p-8 md:p-16 xl:p-24"}>
         {children}
       </body>
+      {process.env.NODE_ENV === 'production' && (
+        <Script src="./clarity.js" />
+      )}
     </html>
   )
 }
